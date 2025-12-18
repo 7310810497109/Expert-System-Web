@@ -1,0 +1,80 @@
+/* Styling Global */
+body {
+  background-color: #f4f7f6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #2c3e50;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.card-header {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+}
+
+/* Checkbox Gejala yang Keren */
+.gejala-box {
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  background-color: white;
+}
+
+.gejala-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  border-color: #3498db;
+}
+
+/* Class ini akan ditambahkan lewat JS saat dicentang */
+.gejala-box.active {
+  background-color: #e3f2fd; /* Biru muda */
+  border-color: #2196f3;
+  font-weight: 600;
+}
+
+.form-check-input {
+  cursor: pointer;
+  transform: scale(1.2); /* Membesarkan ukuran checkbox */
+  margin-right: 10px;
+}
+
+.form-check-label {
+  cursor: pointer;
+  width: 100%;
+  display: inline-block;
+}
+
+/* Tombol */
+.btn-primary {
+  background-color: #3498db;
+  border: none;
+  padding: 12px;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #2980b9;
+}
